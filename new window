@@ -1,0 +1,11 @@
+#include<linuux/module.h>
+#include<linux/kernel.h>
+ int h_module(void)
+ {
+    printk(KERN_INFO "init called\n");
+ }
+ vod c_module(void)
+{
+    printk(KERN_INFO "cleanup\n");
+
+}
