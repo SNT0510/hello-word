@@ -1,1 +1,0 @@
-scull:=main.o
